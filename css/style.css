@@ -164,3 +164,136 @@ nav {
     line-height: 1.57;
     position: absolute;
 }
+
+/* habilities */
+
+.hab-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+
+.hab-background {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    
+}
+
+.hab-background video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* board 1 */
+
+#quadro-hab {
+    width: 380px;
+    height: 250px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 170px;
+    z-index: 2;
+    top: 20px;
+}
+
+#quadro-hab h3 {
+    margin-left: 105.4px;
+    margin-top: 10px;
+    position: absolute;
+    color: var(--color-2);
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 10;
+}
+
+#quadro-hab video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* board 2 */
+
+#quadro-hab-1 {
+    width: 380px;
+    height: 250px;
+    position: absolute;
+    margin-left: 442.5px;
+    margin-top: 170px;
+    z-index: 2;
+    top: 20px;
+}
+
+#quadro-hab-1 h3 {
+    margin-left: 105.4px;
+    margin-top: 10px;
+    position: absolute;
+    color: var(--color-2);
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 10;
+}
+
+#quadro-hab-1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* board 3 */
+
+#quadro-hab-2 {
+    width: 380px;
+    height: 250px;
+    position: absolute;
+    margin-left: 855px;
+    margin-top: 170px;
+    z-index: 2;
+    top: 20px;
+}
+
+#quadro-hab-2 h3 {
+    margin-left: 130px;
+    margin-top: 10px;
+    position: absolute;
+    color: var(--color-2);
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 10;
+}
+
+#quadro-hab-2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.hab-text {
+    position: absolute;
+    z-index: 10;
+}
+
+.hab-text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--color-1);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.hab-text p {
+    color: var(--color-1);
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 1.57;
+}
