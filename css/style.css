@@ -401,3 +401,113 @@ nav {
 .proj-imgs {
     display: inline-block;
 }
+
+/* contact */
+
+.contato-container {
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+
+.contato-back {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.contato-back video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.contato-text {
+    position: absolute;
+}
+
+.contato-text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--color-2);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.contato-text p {
+    color: var(--color-2);
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 1.57;
+}
+
+.contato-form {
+    width: 70%;
+    height: 225px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.contato-form label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.contato-form input {
+    height: 70%;
+    width: 50%;
+}
+
+.contato-form input::placeholder {
+    font-size: 14px;
+}
+
+.contato-form input[type="text"] {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+}
+
+.contato-form input[type="email"] {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+}
+
+.contato-form textarea {
+    width: 50%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+}
+
+.contato-form button {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    background-color: white;
+    transition: .3s;
+    color: var(--color-2);
+}
+
+.contato-form button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
