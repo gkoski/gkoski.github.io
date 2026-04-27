@@ -1,0 +1,14 @@
+/* general */
+
+:root {
+    --color-1: darkgrey;
+    --color-2: #303030;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
