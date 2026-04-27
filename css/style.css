@@ -126,3 +126,41 @@ nav {
     margin-top: 100px;
     margin-left: 70px;
 }
+
+/* sobre */
+
+#sessao-sobremim {
+    height: 300px;
+    width: 100%;
+}
+
+#about-vid {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.about-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+
+.about-text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--color-2);
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.about-text p {
+    color: var(--color-2);
+    margin-left: 50px;
+    margin-top: 80px;
+    line-height: 1.57;
+    position: absolute;
+}
