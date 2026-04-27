@@ -12,3 +12,54 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
 }
+
+/* topbar */
+
+.topbar-container {
+    height: 80px;
+    background-color: var(--color-2);
+    display: flex;
+    align-items: center;
+    position: fixed;   
+    top: 0;            
+    left: 0;         
+    width: 100%;       
+    z-index: 1000;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topbar-container h1 {
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 550;
+    color: var(--color-1); 
+}
+
+.topbar-container span {
+    font-size: 20px;
+    font-weight: 550;
+    color: var(--color-1); 
+}
+
+.topbar li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 17px;
+    
+}
+
+.topbar li a {
+    text-decoration: none;
+    color: var(--color-1);
+    transition: .5s;
+}
+
+.topbar li a:hover {
+    color: #d8d8d8;
+}
