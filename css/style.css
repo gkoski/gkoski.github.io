@@ -127,6 +127,14 @@ nav {
     margin-left: 70px;
 }
 
+/* background transition */
+
+#back-transition {
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(black, white);
+}
+
 /* sobre */
 
 #sessao-sobremim {
@@ -163,6 +171,14 @@ nav {
     margin-top: 80px;
     line-height: 1.57;
     position: absolute;
+}
+
+/* background transition */
+
+#back-transition-1{
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(white, black);
 }
 
 /* habilities */
@@ -362,6 +378,14 @@ nav {
     line-height: 1.57;
 }
 
+/* background transition */
+
+#back-transition-2 {
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(black, white);
+}
+
 /* experiences */
 
 .exp-container {
@@ -422,6 +446,14 @@ nav {
     z-index: 2;
 }
 
+/* background transition */
+
+#back-transition-3{
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(white, black);
+}
+
 /* projects */
 
 .proj-container {
@@ -464,6 +496,14 @@ nav {
 
 .proj-imgs {
     display: inline-block;
+}
+
+/* back transition */
+
+#back-transition-4 {
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(black, white);
 }
 
 /* contact */
