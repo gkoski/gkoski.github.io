@@ -1,8 +1,8 @@
 /* general */
 
 :root {
-    --color-1: darkgrey;
-    --color-2: #303030;
+    --color-1: #ef74b2;
+    --color-2: #EFA1C8;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -20,10 +20,10 @@ html {
     background-color: var(--color-2);
     display: flex;
     align-items: center;
-    position: fixed;   
-    top: 0;            
-    left: 0;         
-    width: 100%;       
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -38,20 +38,20 @@ nav {
     margin-left: 30px;
     font-size: 24px;
     font-weight: 550;
-    color: var(--color-1); 
+    color: var(--color-1);
 }
 
 .topbar-container span {
     font-size: 20px;
     font-weight: 550;
-    color: var(--color-1); 
+    color: var(--color-1);
 }
 
 .topbar li {
     display: inline-block;
     margin-right: 30px;
     font-size: 17px;
-    
+
 }
 
 .topbar li a {
@@ -89,7 +89,7 @@ nav {
     z-index: -1;
 }
 
-.banner-items  {   
+.banner-items {
     position: absolute;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ nav {
 .banner-text {
     display: flex;
     flex-direction: column;
-    margin-left: 20px; 
+    margin-left: 20px;
     margin-top: 90px;
 }
 
@@ -125,14 +125,6 @@ nav {
     border-radius: 50%;
     margin-top: 100px;
     margin-left: 70px;
-}
-
-/* background transition */
-
-#back-transition {
-    height: 120px;
-    width: 100%;
-    background: linear-gradient(black, white);
 }
 
 /* sobre */
@@ -173,14 +165,6 @@ nav {
     position: absolute;
 }
 
-/* background transition */
-
-#back-transition-1{
-    height: 120px;
-    width: 100%;
-    background: linear-gradient(white, black);
-}
-
 /* habilities */
 
 .hab-container {
@@ -195,7 +179,7 @@ nav {
     height: 500px;
     display: flex;
     position: absolute;
-    
+
 }
 
 .hab-background video {
@@ -238,13 +222,13 @@ nav {
 
 .icon-container {
     position: absolute;
-    top: 35%; 
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
     max-width: 320px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
     align-items: center;
@@ -269,7 +253,9 @@ nav {
     transition: .3s;
 }
 
-.icon-container ion-icon:hover, .icon-container .fa-java:hover, .icon-container .fa-php:hover {
+.icon-container ion-icon:hover,
+.icon-container .fa-java:hover,
+.icon-container .fa-php:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -378,14 +364,6 @@ nav {
     line-height: 1.57;
 }
 
-/* background transition */
-
-#back-transition-2 {
-    height: 120px;
-    width: 100%;
-    background: linear-gradient(black, white);
-}
-
 /* experiences */
 
 .exp-container {
@@ -446,14 +424,6 @@ nav {
     z-index: 2;
 }
 
-/* background transition */
-
-#back-transition-3{
-    height: 120px;
-    width: 100%;
-    background: linear-gradient(white, black);
-}
-
 /* projects */
 
 .proj-container {
@@ -496,14 +466,6 @@ nav {
 
 .proj-imgs {
     display: inline-block;
-}
-
-/* back transition */
-
-#back-transition-4 {
-    height: 120px;
-    width: 100%;
-    background: linear-gradient(black, white);
 }
 
 /* contact */
