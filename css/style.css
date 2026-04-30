@@ -28,6 +28,7 @@ body.light-mode {
     height: 80px;
     background-color: var(--bg-topbar);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -70,7 +71,7 @@ nav {
 }
 
 .topbar li a:hover {
-    color: #d8d8d8;
+    color: var(--color-2);
 }
 
 #theme-toggle {
@@ -147,7 +148,7 @@ nav {
     margin-left: 30px;
     margin-top: 10px;
     line-height: 1.57;
-    color: var(--color-1);
+    color: var(--color-2);
 }
 
 #profile {
@@ -182,7 +183,7 @@ nav {
 .about-text h1 {
     font-size: 38px;
     font-weight: 600;
-    color: var(--color-2);
+    color: var(--color-1);
     margin-left: 50px;
     margin-top: 30px;
     position: absolute;
@@ -235,7 +236,8 @@ nav {
     margin-left: 105.4px;
     margin-top: 10px;
     position: absolute;
-    color: var(--color-2);
+    justify-content: center;
+    color: var(--color-1);
     font-size: 24px;
     font-weight: 600;
     z-index: 10;
@@ -268,19 +270,19 @@ nav {
 
 .icon-container ion-icon {
     font-size: 60px;
-    color: var(--color-2);
+    color: #303030;
     transition: .3s;
 }
 
 .icon-container .fa-java {
     font-size: 60px;
-    color: var(--color-2);
+    color: var(--icn-color);
     transition: .3s;
 }
 
 .icon-container .fa-php {
     font-size: 60px;
-    color: var(--color-2);
+    color: var(--icn-color);
     transition: .3s;
 }
 
@@ -315,6 +317,7 @@ nav {
     color: #FFDF00;
 }
 
+
 /* board 2 */
 
 #quadro-hab-1 {
@@ -331,7 +334,7 @@ nav {
     margin-left: 105.4px;
     margin-top: 10px;
     position: absolute;
-    color: var(--color-2);
+    color: var(--color-1);
     font-size: 24px;
     font-weight: 600;
     z-index: 10;
@@ -361,7 +364,7 @@ nav {
     margin-left: 130px;
     margin-top: 10px;
     position: absolute;
-    color: var(--color-2);
+    color: var(--color-1);
     font-size: 24px;
     font-weight: 600;
     z-index: 10;
@@ -389,7 +392,7 @@ nav {
 }
 
 .hab-text p {
-    color: var(--color-1);
+    color: var(--color-2);
     margin-left: 50px;
     margin-top: 10px;
     line-height: 1.57;
@@ -422,7 +425,7 @@ nav {
     z-index: 10;
     font-size: 38px;
     font-weight: 600;
-    color: var(--color-2);
+    color: var(--color-1);
     margin-left: 50px;
     margin-top: 15px;
 }
@@ -489,7 +492,7 @@ nav {
 }
 
 .proj-text p {
-    color: var(--color-1);
+    color: var(--color-2);
     margin-left: 50px;
     margin-top: 10px;
     line-height: 1.57;
