@@ -3,6 +3,8 @@
 :root {
     --color-1: #ef74b2;
     --color-2: #EFA1C8;
+    --bg-topbar: black;
+    --icn-color: #303030;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -11,6 +13,13 @@ html {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+}
+
+body.light-mode {
+    --color-1: #ef74b2;
+    --color-2: #EFA1C8;
+    --bg-topbar: white;
+    --icn-color: #d8d8d8;
 }
 
 /* topbar */
@@ -62,6 +71,28 @@ nav {
 
 .topbar li a:hover {
     color: #d8d8d8;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-1);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: transform 0.2s;
+}
+
+#theme-toggle i {
+    font-size: 22px;
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1);
 }
 
 /* banner */
