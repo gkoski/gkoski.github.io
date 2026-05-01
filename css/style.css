@@ -9,10 +9,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+    overflow-x: hidden;
 }
 
 body.light-mode {
@@ -25,6 +32,7 @@ body.light-mode {
 /* topbar */
 
 .topbar-container {
+    width: 100%;
     height: 80px;
     background-color: var(--bg-topbar);
     display: flex;
@@ -33,7 +41,6 @@ body.light-mode {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 1000;
 }
 
@@ -201,14 +208,15 @@ nav {
 
 .hab-container {
     width: 100%;
-    height: 500px;
+    height: 700px;
     display: flex;
+    flex-direction: column;
     position: relative;
 }
 
 .hab-background {
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     position: absolute;
 
@@ -220,22 +228,61 @@ nav {
     object-fit: cover;
 }
 
+.hab-text {
+    position: relative;
+    z-index: 10;
+}
+
+.hab-text h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--color-1);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.hab-text p {
+    color: var(--color-2);
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 1.57;
+}
+
+.boards-hab {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.boards-hab h3 {
+    position: relative;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: var(--color-1);
+    font-size: 22px;
+    z-index: 15;
+}
+
 /* board 1 */
 
 #quadro-hab {
     width: 380px;
     height: 250px;
     position: relative;
-    margin-left: 30px;
-    margin-top: 170px;
     z-index: 2;
-    top: 20px;
 }
 
 #quadro-hab h3 {
-    margin-left: 105.4px;
-    margin-top: 10px;
-    position: absolute;
+    position: relative;
     justify-content: center;
     color: var(--color-1);
     font-size: 24px;
@@ -255,9 +302,9 @@ nav {
 
 .icon-container {
     position: absolute;
-    top: 35%;
+    top: 60%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     width: 90%;
     max-width: 320px;
     display: grid;
@@ -323,17 +370,12 @@ nav {
 #quadro-hab-1 {
     width: 380px;
     height: 250px;
-    position: absolute;
-    margin-left: 442.5px;
-    margin-top: 170px;
+    position: relative;
     z-index: 2;
-    top: 20px;
 }
 
 #quadro-hab-1 h3 {
-    margin-left: 105.4px;
-    margin-top: 10px;
-    position: absolute;
+    position: relative;
     color: var(--color-1);
     font-size: 24px;
     font-weight: 600;
@@ -353,17 +395,12 @@ nav {
 #quadro-hab-2 {
     width: 380px;
     height: 250px;
-    position: absolute;
-    margin-left: 855px;
-    margin-top: 170px;
+    position: relative;
     z-index: 2;
-    top: 20px;
 }
 
 #quadro-hab-2 h3 {
-    margin-left: 130px;
-    margin-top: 10px;
-    position: absolute;
+    position: relative;
     color: var(--color-1);
     font-size: 24px;
     font-weight: 600;
@@ -378,25 +415,7 @@ nav {
     z-index: 1;
 }
 
-.hab-text {
-    position: absolute;
-    z-index: 10;
-}
 
-.hab-text h1 {
-    font-size: 38px;
-    font-weight: 600;
-    color: var(--color-1);
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-.hab-text p {
-    color: var(--color-2);
-    margin-left: 50px;
-    margin-top: 10px;
-    line-height: 1.57;
-}
 
 /* experiences */
 
@@ -464,18 +483,19 @@ nav {
     width: 100%;
     height: 800px;
     display: flex;
+    position: relative;
 }
 
 .proj-background {
     width: 100%;
-    height: 100%;
+    height: 800px;
+    display: flex;
     position: relative;
 }
 
 .proj-background video {
-    width: 101.65%;
+    width: 100%;
     height: 100%;
-    position: relative;
     object-fit: cover;
 }
 
