@@ -466,6 +466,32 @@ nav {
     z-index: 1;
 }
 
+/* frame icons */
+
+.frame-icon {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 320px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.frame-icon svg {
+    width: 70px;
+    height: 70px;
+    transition: 0.3s;
+}
+
+.frame-icon svg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 /* board 3 */
 
 #quadro-hab-2 {
@@ -602,7 +628,7 @@ nav {
 
 .contato-container {
     width: 100%;
-    height: 520px;
+    height: 600px;
     display: flex;
 }
 
