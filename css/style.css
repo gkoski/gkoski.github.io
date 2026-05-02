@@ -139,7 +139,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .banner-items h1 {
@@ -164,6 +164,82 @@ nav {
     border-radius: 50%;
     margin-top: 100px;
     margin-left: 70px;
+}
+
+/* banner icons */
+
+.banner-icns {
+    height: 20px;
+    position: relative;
+    display: inline-flex;
+    right: 66%;
+    margin-top: 300px;
+}
+
+.banner-icns a {
+    color: var(--color-1);
+    text-decoration: none;
+    padding: 15px;
+}
+
+#gitH {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: var(--color-1);
+    border: 2px solid var(--color-1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 30%;
+    transition: .3s;
+}
+
+#gitH:hover {
+    color: var(--color-2);
+    transform: scale(1.1);
+}
+
+#linke {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: var(--color-1);
+    border: 2px solid var(--color-1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 30%;
+    transition: .3s;
+}
+
+#linke:hover {
+    color: var(--color-2);
+    transform: scale(1.1);
+}
+
+#insta {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    color: var(--color-1);
+    border: 2px solid var(--color-1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 30%;
+    transition: .3s;
+}
+
+#insta:hover {
+    color: var(--color-2);
+    transform: scale(1.1);
 }
 
 /* sobre */
@@ -669,7 +745,7 @@ nav {
     height: 30px;
     position: relative;
     left: 55%;
-    top: 45%;
+    top: 46%;
     display: inline-flex;
     gap: 20px;
 }
@@ -681,9 +757,9 @@ nav {
 }
 
 #linkedin {
-    width: 45px;
-    height: 45px;
-    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
     color: var(--color-1);
     border: 2px solid var(--color-1);
     border-radius: 50%;
@@ -701,9 +777,9 @@ nav {
 }
 
 #instagram {
-    width: 45px;
-    height: 45px;
-    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
     color: var(--color-1);
     border: 2px solid var(--color-1);
     border-radius: 50%;
