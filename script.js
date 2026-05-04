@@ -25,3 +25,25 @@ btn.addEventListener('click', () => {
         video.play();
     });
 });
+
+const projetos = document.querySelectorAll('.card-projeto');
+
+console.log("Quantidade de projetos encontrados:", projetos.length);
+
+projetos.forEach((projeto, index) => {
+    const video = projeto.querySelector('video');
+
+    projeto.addEventListener('mouseenter', () => {
+        console.log(`Mouse entrou no projeto ${index}`);
+        if (video) {
+            video.play().catch(e => console.error("Erro ao dar play:", e));
+        }
+    });
+
+    projeto.addEventListener('mouseleave', () => {
+        console.log(`Mouse saiu no projeto ${index}`);
+        if (video) {
+            video.pause();
+        }
+    });
+});
