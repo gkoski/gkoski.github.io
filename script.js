@@ -84,3 +84,7 @@ if (menuIcon && navMenu) {
         });
     });
 }
+
+document.querySelectorAll('video').forEach(video => {
+    video.style.pointerEvents = 'none';
+});
