@@ -24,6 +24,15 @@
 <body>
     <header class="topbar-container">
         <h1>Portfolio <span><i class="fa-solid fa-code"></i></span></h1>
+        <div class="mobile-nav-group">
+            <button id="theme-toggle" class="mode-btn">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+
+            <div class="menu-hamburguer" id="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
         <nav>
             <ul class="topbar">
                 <li><a href="#sessao-bemvindo">Bem vindo</a></li>
@@ -34,13 +43,8 @@
                 <li><a href="#sessao-contato">Contato</a></li>
             </ul>
         </nav>
-
-        <button id="theme-toggle"
-            style="margin-left: 20px; cursor: pointer; background: none; border: none; font-size: 20px; color: var(--color-1);">
-            <i class="fa-solid fa-sun"></i>
-        </button>
-
     </header>
+
     <section id="sessao-bemvindo">
         <div class="banner">
             <div class="banner-vid">
@@ -69,7 +73,7 @@
             </div>
     </section>
 
-    <section id=" sessao-sobremim">
+    <section id="sessao-sobremim">
         <div class="about-container">
             <div class="about-background">
                 <video src="assets/banner.mp4" autoplay muted loop id="about-vid"></video>
@@ -133,8 +137,8 @@
                     <h3>Idiomas</h3>
                     <video src="assets/inverted-banner.mp4" autoplay muted loop></video>
                     <div id="board-text">
-                        <h4 id="portugues">Português - Nativo</h4>
-                        <h4>Inglês - Intermediário</h4>
+                        <h4 id="portugues">Português - <br class="quebra-mobile"> Nativo</h4>
+                        <h4>Inglês - Intermediário/ <br class="quebra-mobile"> Avançado</h4>
                     </div>
                 </div>
             </div>
@@ -163,7 +167,7 @@
             </div>
             <div class="proj-text">
                 <h1>Meus projetos</h1>
-                <p>Caso queira conhecer mais sobre meus projetos, clique nos botões abaixo!</p>
+                <p>Caso queira conhecer mais sobre meus projetos, clique nos quadros abaixo!</p>
             </div>
             <div class="proj-gifs">
                 <div class="proj-gifs">

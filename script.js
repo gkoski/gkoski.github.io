@@ -47,3 +47,40 @@ projetos.forEach((projeto, index) => {
         }
     });
 });
+
+const menuIcon = document.getElementById('menu-icon');
+const navMenu = document.querySelector('.topbar');
+
+if (menuIcon && navMenu) {
+    navMenu.style.right = "-100%";
+
+    menuIcon.addEventListener('click', () => {
+        if (navMenu.style.right === "0px" || navMenu.style.right === "0") {
+            navMenu.style.right = "-100%";
+            navMenu.classList.remove('active');
+        } else {
+            navMenu.style.right = "0";
+            navMenu.classList.add('active');
+        }
+
+        // Troca de ícones
+        const icon = menuIcon.querySelector('i');
+        if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        }
+    });
+
+    document.querySelectorAll('.topbar li a').forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.style.right = "-100%";
+            navMenu.classList.remove('active');
+
+            const icon = menuIcon.querySelector('i');
+            if (icon) {
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-xmark');
+            }
+        });
+    });
+}
