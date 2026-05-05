@@ -22,6 +22,10 @@ body.light-mode {
     --icn-color: #d8d8d8;
 }
 
+video {
+    pointer-events: none;
+}
+
 /* topbar */
 
 .topbar-container {
@@ -847,7 +851,7 @@ footer h4 {
     margin-top: 15px;
 }
 
-/* ===================== Mobile ===================== */
+/* Mobile */
 
 @media (min-width: 300px) {
 
@@ -1415,7 +1419,7 @@ footer h4 {
     }
 }
 
-/* ===================== Tablet ===================== */
+/* Tablet */
 
 @media (min-width: 760px) {
 
@@ -1990,13 +1994,9 @@ footer h4 {
     }
 }
 
-/* ===================== Laptop ===================== */
+/* Laptop */
 
 @media (min-width: 1000px) {
-
-    video {
-        pointer-events: none;
-    }
 
     .topbar-container h1 {
         order: 1;
@@ -2632,7 +2632,7 @@ footer h4 {
     }
 }
 
-/* ===================== Large Desktop ===================== */
+/* Large desktop */
 
 @media (min-width: 1440px) {
 
